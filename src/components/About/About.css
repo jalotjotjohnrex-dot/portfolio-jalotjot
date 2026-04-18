@@ -1,0 +1,245 @@
+.about.section {
+  padding: var(--section-pad);
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+/* ── Bio Card ──────────────────────────── */
+.about__bio {
+  padding: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: fit-content;
+}
+
+.about__bio-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about__bio-header {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.about__avatar-wrap {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid rgba(108,99,255,0.4);
+  flex-shrink: 0;
+}
+.about__avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+.about__name {
+  font-family: var(--font-head);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--clr-text);
+  margin-bottom: 0.3rem;
+}
+.about__location {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: var(--clr-muted);
+}
+
+.about__text {
+  font-size: 0.95rem;
+  color: var(--clr-muted);
+  line-height: 1.8;
+}
+.about__text strong { color: var(--clr-text); }
+
+.about__links { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 0.5rem; }
+
+/* ── Achievements ─────────────────────── */
+.about__achievements {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.about__achievement-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--clr-border);
+}
+.about__achievement-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.about__achievement-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+.about__achievement-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.about__achievement-name {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--clr-text);
+}
+.about__achievement-type {
+  font-size: 0.75rem;
+  color: var(--clr-primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.about__achievement-view {
+  color: var(--clr-muted);
+  transition: all 0.2s ease;
+  display: flex;
+  padding: 0.5rem;
+  border-radius: var(--radius-sm);
+}
+.about__achievement-view:hover {
+  color: var(--clr-primary);
+  background: rgba(108,99,255,0.1);
+  transform: scale(1.1);
+}
+
+/* ── Timeline ──────────────────────────── */
+.about__timeline-title {
+  font-family: var(--font-head);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--clr-text);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.about__timeline-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--clr-border);
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  bottom: 10px;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--clr-primary), transparent);
+}
+
+.timeline__item {
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+.timeline__dot {
+  position: absolute;
+  left: -1.5rem;
+  top: 12px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--clr-primary);
+  border: 2px solid var(--clr-bg);
+  box-shadow: 0 0 12px rgba(108,99,255,0.5);
+  transform: translateX(-5px);
+}
+
+.timeline__content {
+  padding: 1.25rem 1.5rem;
+}
+.timeline__year {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--clr-primary);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.timeline__role {
+  font-family: var(--font-head);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--clr-text);
+  margin: 0.3rem 0 0.15rem;
+}
+.timeline__place {
+  font-size: 0.82rem;
+  color: var(--clr-accent);
+  margin-bottom: 0.5rem;
+}
+.timeline__desc {
+  font-size: 0.88rem;
+  color: var(--clr-muted);
+  line-height: 1.7;
+}
+
+/* ── Education ─────────────────────────── */
+.about__edu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.about__edu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+}
+.about__edu-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+.about__edu-info {
+  display: flex;
+  flex-direction: column;
+}
+.about__edu-degree {
+  font-family: var(--font-head);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--clr-text);
+}
+.about__edu-school {
+  font-size: 0.85rem;
+  color: var(--clr-primary);
+  margin-top: 0.1rem;
+}
+.about__edu-year {
+  font-size: 0.78rem;
+  color: var(--clr-muted);
+  margin-top: 0.1rem;
+}
+
+/* ── Responsive ─────────────────────────── */
+@media (max-width: 900px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
+}
