@@ -13,7 +13,7 @@ export const generateCV = () => {
 
   // ── Header Section ──────────────────────────────────────────
   doc.setFillColor(...primaryColor)
-  doc.rect(0, 0, 210, 45, 'F')
+  doc.rect(0, 0, 210, 50, 'F')
   
   doc.setTextColor(255, 255, 255)
   doc.setFont('helvetica', 'bold')
@@ -28,8 +28,9 @@ export const generateCV = () => {
   doc.text('Email: johnrexjalotjot@gmail.com', 15, 36)
   doc.text('Phone: 09703322984', 80, 36)
   doc.text('Location: Marinduque, Philippines', 135, 36)
+  doc.text('Links: GitHub: jalotjotjohnrex-dot | LinkedIn: john-rex-jalotjot-a52275404 | Portfolio: portfolio-jalotjot-gu1c.vercel.app', 15, 43)
 
-  let y = 60
+  let y = 65
 
   // ── Professional Summary ────────────────────────────────────
   doc.setTextColor(...primaryColor)
@@ -40,14 +41,14 @@ export const generateCV = () => {
   doc.setDrawColor(...accentColor)
   doc.setLineWidth(0.5)
   doc.line(15, y, 195, y)
-  y += 10
+  y += 8
   
   doc.setFont('helvetica', 'normal')
   doc.setFontSize(10)
-  const summary = 'Graduate Computer Engineer specialized in full-stack web development and mobile applications. Proven track record in modernizing government operations through robust digital systems (Inventory and Personnel management). Passionate about creating efficient, scalable, and user-centric engineering solutions.'
+  const summary = '22-year-old Full-Stack Developer & Computer Engineering graduate with a proven track record in modernizing government operations through robust digital systems. Passionate about creating efficient, scalable, and user-centric engineering solutions. As a values-driven, God-loving professional, I prioritize integrity and trust in my daily work. I am highly punctual, detail-oriented, and accountable, ensuring deadlines are met with high-quality code.'
   const splitSummary = doc.splitTextToSize(summary, 180)
   doc.text(splitSummary, 15, y)
-  y += 20
+  y += (splitSummary.length * 5) + 5
 
   // ── Experience / OJT (2026) ─────────────────────────────────
   doc.setFont('helvetica', 'bold')
@@ -55,7 +56,7 @@ export const generateCV = () => {
   doc.text('PROFESSIONAL EXPERIENCE (2026 OJT)', 15, y)
   y += 5
   doc.line(15, y, 195, y)
-  y += 10
+  y += 8
 
   const experiences = [
     {
@@ -88,10 +89,8 @@ export const generateCV = () => {
     doc.setFontSize(10)
     const splitDesc = doc.splitTextToSize(exp.desc, 180)
     doc.text(splitDesc, 15, y + 10)
-    y += 25
+    y += (splitDesc.length * 5) + 12
   })
-
-  y += 5
 
   // ── Education ───────────────────────────────────────────────
   doc.setFont('helvetica', 'bold')
@@ -122,10 +121,10 @@ export const generateCV = () => {
   // ── Technical Skills ────────────────────────────────────────
   doc.setFont('helvetica', 'bold')
   doc.setFontSize(14)
-  doc.text('TECHNICAL SKILLS', 15, y)
+  doc.text('SKILLS & TRAITS', 15, y)
   y += 5
   doc.line(15, y, 195, y)
-  y += 10
+  y += 8
 
   doc.setFontSize(10)
   doc.setFont('helvetica', 'bold')
@@ -144,6 +143,12 @@ export const generateCV = () => {
   doc.text('Tools:', 15, y)
   doc.setFont('helvetica', 'normal')
   doc.text('Git, GitHub, Vite, Expo, Mobile Development (React Native)', 45, y)
+  y += 6
+
+  doc.setFont('helvetica', 'bold')
+  doc.text('Traits:', 15, y)
+  doc.setFont('helvetica', 'normal')
+  doc.text('Highly Punctual, God-loving, Detail-Oriented, Collaborative Teamwork', 45, y)
 
   // ── Footer ──────────────────────────────────────────────────
   doc.setFontSize(8)
