@@ -53,7 +53,7 @@ export const generateCV = () => {
   // ── Experience / OJT (2026) ─────────────────────────────────
   doc.setFont('helvetica', 'bold')
   doc.setFontSize(14)
-  doc.text('PROFESSIONAL EXPERIENCE (2026 OJT)', 15, y)
+  doc.text('PROFESSIONAL EXPERIENCE', 15, y)
   y += 5
   doc.line(15, y, 195, y)
   y += 8
@@ -61,18 +61,23 @@ export const generateCV = () => {
   const experiences = [
     {
       role: 'Full-Stack Developer (OJT)',
-      place: 'Municipality of Boac, LGU',
+      place: 'Municipality of Boac, LGU | 2026 – Present',
       desc: 'Lead developer for the Inventory and Personnel (Plantilla) Management systems. Utilized Laravel and React to automate manual government workflows, resulting in high efficiency.'
     },
     {
       role: 'Mobile App Specialist (OJT)',
-      place: 'Municipality of Boac, LGU',
+      place: 'Municipality of Boac, LGU | 2026 – Present',
       desc: 'Engineered a 3D Wayfinding system and an Expense Tracking app using React Native and Firebase cloud databases for public infrastructure.'
     },
     {
       role: 'Database & Technical Support (OJT)',
-      place: 'Municipality of Boac, LGU',
+      place: 'Municipality of Boac, LGU | 2026 – Present',
       desc: 'Optimized internal LGU databases and developed the Printer Driver Portal to streamline technical operations for municipal offices.'
+    },
+    {
+      role: 'Thesis Researcher & Lead Developer',
+      place: 'Marinduque State University | 2025 – 2026',
+      desc: 'Led design and development of the "Smart Clothesline System: An AI-Driven Solution for Efficient Drying and Ironing of Gowns." Built a full-stack web app for real-time monitoring and remote control of the hardware prototype. Integrated IoT sensors (rain, light, smoke) with an automated retraction mechanism and PTC heater fans for efficient, safe gown drying.'
     }
   ]
 

@@ -23,6 +23,12 @@ const timeline = [
     place: 'Municipality of Boac, LGU',
     desc:  'Engineered internal tools like the Printer Driver Portal and optimized local PHP/MySQL databases for municipal office efficiency.',
   },
+  {
+    year:  '2025 – 2026',
+    title: 'Thesis Researcher & Lead Developer',
+    place: 'Marinduque State University',
+    desc:  'Led the development of "Smart Clothesline System: An AI-Driven Solution for Efficient Drying and Ironing of Gowns." Built a full-stack web app for real-time monitoring and control of the hardware prototype, integrating rain, light, and smoke sensors with PTC heater fans and an automated retraction mechanism.',
+  },
 ]
 
 const education = [

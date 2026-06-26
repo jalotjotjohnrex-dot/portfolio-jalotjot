@@ -99,6 +99,34 @@ export const generateResume = () => {
     y += (splitText.length * 5)
   })
 
+  y += 4
+
+  // Thesis Experience
+  doc.setFontSize(fontSizeBody)
+  doc.setFont(fontBody, 'bold')
+  doc.text('Marinduque State University – Capstone / Thesis', marginX, y)
+  doc.setFont(fontBody, 'normal')
+  doc.text('Marinduque, PH', 190, y, { align: 'right' })
+  y += 5
+  doc.setFont(fontBody, 'italic')
+  doc.text('Thesis Researcher & Lead Developer', marginX, y)
+  doc.setFont(fontBody, 'normal')
+  doc.text('2025 – 2026', 190, y, { align: 'right' })
+  y += 6
+
+  const thesisBullets = [
+    'Designed and developed a full-stack web application for real-time monitoring and remote control of the Smart Clothesline System hardware prototype.',
+    'Integrated IoT sensors (rain, light, and smoke) to automate gown protection, triggering an automated retraction mechanism when environmental hazards were detected.',
+    'Implemented PTC heater fans as the primary drying mechanism, optimizing drying efficiency and energy safety for delicate garments.',
+    'Thesis Title: "Smart Clothesline System: An AI-Driven Solution for Efficient Drying and Ironing of Gowns."',
+  ]
+
+  thesisBullets.forEach(bullet => {
+    const splitText = doc.splitTextToSize('• ' + bullet, 165)
+    doc.text(splitText, marginX + 5, y)
+    y += (splitText.length * 5)
+  })
+
   y += 3
 
   // ── NOTABLE PROJECTS ─────────────────────────────────────────
