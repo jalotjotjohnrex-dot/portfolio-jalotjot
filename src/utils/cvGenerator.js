@@ -75,6 +75,11 @@ export const generateCV = () => {
       desc: 'Optimized internal LGU databases and developed the Printer Driver Portal to streamline technical operations for municipal offices.'
     },
     {
+      role: 'IT Support & Network Technician (OJT)',
+      place: 'Municipality of Boac, LGU | 2026 – Present',
+      desc: 'Assisted in the configuration and deployment of CCTV systems, including fiber optic lining and IP management. Provided comprehensive hardware troubleshooting for printers and deployed OS installations across municipal offices.'
+    },
+    {
       role: 'Thesis Researcher & Lead Developer',
       place: 'Marinduque State University | 2025 – 2026',
       desc: 'Led design and development of the "Smart Clothesline System: An AI-Driven Solution for Efficient Drying and Ironing of Gowns." Built a full-stack web app for real-time monitoring and remote control of the hardware prototype. Integrated IoT sensors (rain, light, smoke) with an automated retraction mechanism and PTC heater fans for efficient, safe gown drying.'

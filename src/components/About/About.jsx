@@ -24,6 +24,12 @@ const timeline = [
     desc:  'Engineered internal tools like the Printer Driver Portal and optimized local PHP/MySQL databases for municipal office efficiency.',
   },
   {
+    year:  '2026',
+    title: 'IT Support & Network Technician (OJT)',
+    place: 'Municipality of Boac, LGU',
+    desc:  'Assisted in the configuration and deployment of CCTV systems, including fiber optic lining and IP management. Provided hardware troubleshooting for printers and deployed OS installations across municipal offices.',
+  },
+  {
     year:  '2025 – 2026',
     title: 'Thesis Researcher & Lead Developer',
     place: 'Marinduque State University',
