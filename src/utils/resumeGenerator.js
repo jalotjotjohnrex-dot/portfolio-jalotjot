@@ -36,7 +36,7 @@ export const generateResume = () => {
 
   doc.setFont(fontBody, 'normal')
   doc.setFontSize(fontSizeBody)
-  const summary = '22-year-old Full-Stack Developer & Computer Engineering graduate. Builds impactful web/mobile apps using React, Laravel, PHP, Next.js, and Python. Proven track record delivering secure, efficient software for Local Government Units (LGU). As a values-driven, God-loving professional, I prioritize integrity and trust in my daily work. I am highly punctual, detail-oriented, and accountable, ensuring deadlines are met with high-quality code.'
+  const summary = 'A 22 years old Full-Stack Developer & Computer Engineering graduate. Builds impactful web/mobile apps using React, Laravel, PHP, Next.js, and Python. Proven track record delivering secure, efficient software for Local Government Units (LGU). As a values-driven, God-loving professional, I prioritize integrity and trust in my daily work. I am highly punctual, detail-oriented, and accountable, ensuring deadlines are met with high-quality code.'
   const splitSummary = doc.splitTextToSize(summary, 170)
   doc.text(splitSummary, marginX, y)
   y += (splitSummary.length * 5) + 3

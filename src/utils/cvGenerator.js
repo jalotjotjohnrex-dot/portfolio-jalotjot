@@ -45,7 +45,7 @@ export const generateCV = () => {
   
   doc.setFont('helvetica', 'normal')
   doc.setFontSize(10)
-  const summary = '22-year-old Full-Stack Developer & Computer Engineering graduate with a proven track record in modernizing government operations through robust digital systems. Passionate about creating efficient, scalable, and user-centric engineering solutions. As a values-driven, God-loving professional, I prioritize integrity and trust in my daily work. I am highly punctual, detail-oriented, and accountable, ensuring deadlines are met with high-quality code.'
+  const summary = 'A 22 years old Full-Stack Developer & Computer Engineering graduate with a proven track record in modernizing government operations through robust digital systems. Passionate about creating efficient, scalable, and user-centric engineering solutions. As a values-driven, God-loving professional, I prioritize integrity and trust in my daily work. I am highly punctual, detail-oriented, and accountable, ensuring deadlines are met with high-quality code.'
   const splitSummary = doc.splitTextToSize(summary, 180)
   doc.text(splitSummary, 15, y)
   y += (splitSummary.length * 5) + 5
