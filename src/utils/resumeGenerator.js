@@ -74,6 +74,7 @@ export const generateResume = () => {
   y += 6
 
   // OJT Experience
+  doc.setFontSize(fontSizeBody)
   doc.setFont(fontBody, 'bold')
   doc.text('Municipality of Boac (Local Government Unit)', marginX, y)
   doc.setFont(fontBody, 'normal')
@@ -161,6 +162,7 @@ export const generateResume = () => {
   doc.line(marginX, y, 190, y)
   y += 6
 
+  doc.setFontSize(fontSizeBody)
   doc.setFont(fontBody, 'normal')
   const achieveBullets = [
     'Civil Service Certificate (Professional Eligibility) - Recognized for excellence in public service qualification.',
