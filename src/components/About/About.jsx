@@ -11,12 +11,7 @@ const timeline = [
     place: 'Municipality of Boac, LGU',
     desc:  'Lead developer for the Inventory and Personnel (Plantilla) Management systems, modernizing government workflows with Laravel and React.',
   },
-  {
-    year:  '2026',
-    title: 'Mobile App Specialist (OJT)',
-    place: 'Municipality of Boac, LGU',
-    desc:  'Designed and implemented the 3D Wayfinding system and Expense Tracking mobile apps using React Native and Firebase cloud services.',
-  },
+
   {
     year:  '2026',
     title: 'Database & Technical Support (OJT)',
@@ -27,7 +22,7 @@ const timeline = [
     year:  '2026',
     title: 'IT Support & Network Technician (OJT)',
     place: 'Municipality of Boac, LGU',
-    desc:  'Assisted in the configuration and deployment of CCTV systems, including fiber optic lining and IP management. Provided hardware troubleshooting for printers and deployed OS installations across municipal offices.',
+    desc:  'Assisted in the configuration and deployment of CCTV systems, including fiber optic lining and IP management.',
   },
   {
     year:  '2025 – 2026',

@@ -88,11 +88,9 @@ export const generateResume = () => {
 
   const expBullets = [
     'Developed and deployed the Inventory Management and Personnel (Plantilla) portals using Laravel and React, automating previously manual office workflows.',
-    'Engineered a 3D Wayfinding mobile application and an Expense Tracker using React Native and Firebase to enhance municipal technical infrastructure.',
     'Designed a Printer Driver Portal to streamline driver distribution across LGU departments, improving technical support efficiency.',
     'Optimized complex MySQL database structures for local government databases, ensuring high performance and data integrity.',
-    'Assisted in configuring and deploying CCTV systems across municipal offices, managing IP assignments, fiber optic networking, and system troubleshooting.',
-    'Provided comprehensive IT support, including OS deployment, network configuration, and hardware troubleshooting for printers and workstations.'
+    'Assisted in configuring and deploying CCTV systems across municipal offices, managing IP assignments, fiber optic networking, and system troubleshooting.'
   ]
 
   expBullets.forEach(bullet => {
