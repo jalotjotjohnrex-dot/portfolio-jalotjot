@@ -39,7 +39,7 @@ export default function Hero() {
           <h1 className="hero__title">
             I'm <span className="gradient-text">John Rex M. Jalotjot</span>
             <br />
-            Full‑Stack Developer
+            Junior Full‑Stack Developer
           </h1>
 
           <p className="hero__subtitle">

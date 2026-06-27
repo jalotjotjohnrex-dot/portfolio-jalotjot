@@ -7,7 +7,7 @@ import { jsPDF } from 'jspdf'
 const timeline = [
   {
     year:  '2026',
-    title: 'Full-Stack Developer (OJT)',
+    title: 'Junior Full-Stack Developer (OJT)',
     place: 'Municipality of Boac, LGU',
     desc:  'Lead developer for the Inventory and Personnel (Plantilla) Management systems, modernizing government workflows with Laravel and React.',
   },
