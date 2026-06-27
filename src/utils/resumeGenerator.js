@@ -36,7 +36,7 @@ export const generateResume = () => {
 
   doc.setFont(fontBody, 'normal')
   doc.setFontSize(fontSizeBody)
-  const summary = 'A 22 years old Full-Stack Developer & Computer Engineering graduate. Builds impactful web/mobile apps using React, Laravel, PHP, Next.js, and Python. Proven track record delivering secure, efficient software for Local Government Units (LGU). As a values-driven, God-loving professional, I prioritize integrity and trust in my daily work. I am highly punctual, detail-oriented, and accountable, ensuring deadlines are met with high-quality code.'
+  const summary = 'A 22 years old Junior Full-Stack Developer & Computer Engineering graduate. Builds impactful web/mobile apps using React, Laravel, PHP, Next.js, and Python. Proven track record delivering secure, efficient software for Local Government Units (LGU). As a values-driven, God-loving professional, I prioritize integrity and trust in my daily work. I am highly punctual, detail-oriented, and accountable, ensuring deadlines are met with high-quality code.'
   const splitSummary = doc.splitTextToSize(summary, 170)
   doc.text(splitSummary, marginX, y)
   y += (splitSummary.length * 5) + 3
@@ -83,7 +83,7 @@ export const generateResume = () => {
   doc.setFont(fontBody, 'italic')
   doc.text('System Developer Intern (Graduation OJT)', marginX, y)
   doc.setFont(fontBody, 'normal')
-  doc.text('2026 – Present', 190, y, { align: 'right' })
+  doc.text('Jan 2026 – Apr 2026', 190, y, { align: 'right' })
   y += 6
 
   const expBullets = [
@@ -111,7 +111,7 @@ export const generateResume = () => {
   doc.setFont(fontBody, 'italic')
   doc.text('Thesis Researcher & Lead Developer', marginX, y)
   doc.setFont(fontBody, 'normal')
-  doc.text('2025 – 2026', 190, y, { align: 'right' })
+  doc.text('Feb 2025 – Dec 2025', 190, y, { align: 'right' })
   y += 6
 
   const thesisBullets = [

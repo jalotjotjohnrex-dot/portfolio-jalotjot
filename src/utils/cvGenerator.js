@@ -22,7 +22,7 @@ export const generateCV = () => {
   
   doc.setFont('helvetica', 'normal')
   doc.setFontSize(10)
-  doc.text('GRADUATE COMPUTER ENGINEER | FULL-STACK DEVELOPER', 15, 28)
+  doc.text('GRADUATE COMPUTER ENGINEER | JUNIOR FULL-STACK DEVELOPER', 15, 28)
   
   doc.setFontSize(9)
   doc.text('Email: johnrexjalotjot@gmail.com', 15, 36)
@@ -45,7 +45,7 @@ export const generateCV = () => {
   
   doc.setFont('helvetica', 'normal')
   doc.setFontSize(10)
-  const summary = 'A 22 years old Full-Stack Developer & Computer Engineering graduate with a proven track record in modernizing government operations through robust digital systems. Passionate about creating efficient, scalable, and user-centric engineering solutions. As a values-driven, God-loving professional, I prioritize integrity and trust in my daily work. I am highly punctual, detail-oriented, and accountable, ensuring deadlines are met with high-quality code.'
+  const summary = 'A 22 years old Junior Full-Stack Developer & Computer Engineering graduate with a proven track record in modernizing government operations through robust digital systems. Passionate about creating efficient, scalable, and user-centric engineering solutions. As a values-driven, God-loving professional, I prioritize integrity and trust in my daily work. I am highly punctual, detail-oriented, and accountable, ensuring deadlines are met with high-quality code.'
   const splitSummary = doc.splitTextToSize(summary, 180)
   doc.text(splitSummary, 15, y)
   y += (splitSummary.length * 5) + 5
@@ -61,23 +61,23 @@ export const generateCV = () => {
   const experiences = [
     {
       role: 'Full-Stack Developer (OJT)',
-      place: 'Municipality of Boac, LGU | 2026 – Present',
+      place: 'Municipality of Boac, LGU | Jan 2026 – Apr 2026',
       desc: 'Lead developer for the Inventory and Personnel (Plantilla) Management systems. Utilized Laravel and React to automate manual government workflows, resulting in high efficiency.'
     },
 
     {
       role: 'Database & Technical Support (OJT)',
-      place: 'Municipality of Boac, LGU | 2026 – Present',
+      place: 'Municipality of Boac, LGU | Jan 2026 – Apr 2026',
       desc: 'Optimized internal LGU databases and developed the Printer Driver Portal to streamline technical operations for municipal offices.'
     },
     {
       role: 'IT Support & Network Technician (OJT)',
-      place: 'Municipality of Boac, LGU | 2026 – Present',
+      place: 'Municipality of Boac, LGU | Jan 2026 – Apr 2026',
       desc: 'Assisted in the configuration and deployment of CCTV systems, including fiber optic lining and IP management.'
     },
     {
       role: 'Thesis Researcher & Lead Developer',
-      place: 'Marinduque State University | 2025 – 2026',
+      place: 'Marinduque State University | Feb 2025 – Dec 2025',
       desc: 'Led design and development of the "Smart Clothesline System: An AI-Driven Solution for Efficient Drying and Ironing of Gowns." Built a full-stack web app for real-time monitoring and remote control of the hardware prototype. Integrated IoT sensors (rain, light, smoke) with an automated retraction mechanism and PTC heater fans for efficient, safe gown drying.'
     }
   ]
