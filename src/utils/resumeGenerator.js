@@ -81,7 +81,7 @@ export const generateResume = () => {
   doc.text('Boac, PH', 190, y, { align: 'right' })
   y += 5
   doc.setFont(fontBody, 'italic')
-  doc.text('System Developer Intern (Graduation OJT)', marginX, y)
+  doc.text('System Developer Intern', marginX, y)
   doc.setFont(fontBody, 'normal')
   doc.text('Jan 2026 – Apr 2026', 190, y, { align: 'right' })
   y += 6
