@@ -45,7 +45,7 @@ export const generateCV = () => {
   
   doc.setFont('helvetica', 'normal')
   doc.setFontSize(10)
-  const summary = 'A 22 years old Junior Full-Stack Developer & Computer Engineering graduate with a proven track record in modernizing government operations through robust digital systems. Passionate about creating efficient, scalable, and user-centric engineering solutions. As a values-driven, God-loving professional, I prioritize integrity and trust in my daily work. I am highly punctual, detail-oriented, and accountable, ensuring deadlines are met with high-quality code.'
+  const summary = 'Junior Full-Stack Developer and Computer Engineering graduate with a proven track record of designing and deploying digital systems for Local Government Units (LGU). Proficient in React, Laravel, PHP, and database optimization, with a strong focus on creating efficient, scalable, and user-centric software solutions.'
   const splitSummary = doc.splitTextToSize(summary, 180)
   doc.text(splitSummary, 15, y)
   y += (splitSummary.length * 5) + 5
@@ -152,9 +152,9 @@ export const generateCV = () => {
   y += 6
 
   doc.setFont('helvetica', 'bold')
-  doc.text('Traits:', 15, y)
+  doc.text('Soft Skills:', 15, y)
   doc.setFont('helvetica', 'normal')
-  doc.text('Highly Punctual, God-loving, Detail-Oriented, Collaborative Teamwork', 45, y)
+  doc.text('Detail-Oriented, Technical Writing, Collaborative Teamwork, Problem-Solving', 45, y)
 
   // ── Footer ──────────────────────────────────────────────────
   doc.setFontSize(8)

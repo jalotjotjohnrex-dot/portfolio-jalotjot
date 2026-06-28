@@ -25,22 +25,6 @@ export const generateResume = () => {
   
   y += 8
 
-  // ── PROFESSIONAL SUMMARY ─────────────────────────────────────
-  doc.setFont(fontBody, 'bold')
-  doc.setFontSize(fontSizeSection)
-  doc.text('PROFESSIONAL SUMMARY', marginX, y)
-  y += 2
-  doc.setLineWidth(0.2)
-  doc.line(marginX, y, 190, y)
-  y += 5
-
-  doc.setFont(fontBody, 'normal')
-  doc.setFontSize(fontSizeBody)
-  const summary = 'A 22 years old Junior Full-Stack Developer & Computer Engineering graduate. Builds impactful web/mobile apps using React, Laravel, PHP, Next.js, and Python. Proven track record delivering secure, efficient software for Local Government Units (LGU). As a values-driven, God-loving professional, I prioritize integrity and trust in my daily work. I am highly punctual, detail-oriented, and accountable, ensuring deadlines are met with high-quality code.'
-  const splitSummary = doc.splitTextToSize(summary, 170)
-  doc.text(splitSummary, marginX, y)
-  y += (splitSummary.length * 5) + 3
-
   // ── EDUCATION ───────────────────────────────────────────────
   doc.setFont(fontBody, 'bold')
   doc.setFontSize(fontSizeSection)
@@ -176,9 +160,9 @@ export const generateResume = () => {
   y += 5
 
   doc.setFont(fontBody, 'bold')
-  doc.text('Professional Traits: ', marginX, y)
+  doc.text('Soft Skills: ', marginX, y)
   doc.setFont(fontBody, 'normal')
-  doc.text('Highly Punctual, God-loving, Integrity-driven, Detail-Oriented, Collaborative Teamwork', marginX + 32, y)
+  doc.text('Detail-Oriented, Technical Writing, Collaborative Teamwork, Problem-Solving', marginX + 28, y)
   
   y += 8
 
@@ -195,7 +179,7 @@ export const generateResume = () => {
   const achieveBullets = [
     'Civil Service Certificate (Professional Eligibility) - Recognized for excellence in public service qualification.',
     'Cyber Security Certification - Specialized in technical security protocols and digital safety.',
-    'CpE Challenge Participant - Competed in regional engineering and coding competitions.'
+    'CpE Challenge Participant - Competed in program-level computer engineering and coding competitions.'
   ]
 
   achieveBullets.forEach(bullet => {
