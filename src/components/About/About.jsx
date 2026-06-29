@@ -15,7 +15,7 @@ const timeline = [
     year:  '2026',
     title: 'Mobile App Specialist (OJT)',
     place: 'Municipality of Boac, LGU',
-    desc:  'Engineered an Expense Tracking mobile app to digitize budget and expenditure recording, enhancing financial tracking efficiency.',
+    desc:  'Engineered an Expense Tracking mobile app to digitize budget and expenditure recording, enhancing financial tracking efficiency for the ICTS Office.',
   },
   {
     year:  '2026',

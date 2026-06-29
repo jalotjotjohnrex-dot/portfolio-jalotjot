@@ -67,7 +67,7 @@ export const generateCV = () => {
     {
       role: 'Mobile App Specialist (OJT)',
       place: 'Municipality of Boac, LGU | Jan 2026 – Apr 2026',
-      desc: 'Engineered an Expense Tracking mobile app to digitize budget and expenditure recording, enhancing financial tracking efficiency for LGU operations.'
+      desc: 'Engineered an Expense Tracking mobile app to digitize budget and expenditure recording, enhancing financial tracking efficiency for the ICTS Office.'
     },
 
     {
