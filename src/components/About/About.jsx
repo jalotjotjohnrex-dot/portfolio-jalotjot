@@ -11,7 +11,12 @@ const timeline = [
     place: 'Municipality of Boac, LGU',
     desc:  'Lead developer for the Inventory and Personnel (Plantilla) Management systems, modernizing government workflows with Laravel and React.',
   },
-
+  {
+    year:  '2026',
+    title: 'Mobile App Specialist (OJT)',
+    place: 'Municipality of Boac, LGU',
+    desc:  'Engineered an Expense Tracking mobile app to digitize budget and expenditure recording, enhancing financial tracking efficiency.',
+  },
   {
     year:  '2026',
     title: 'Database & Technical Support (OJT)',
@@ -105,7 +110,7 @@ export default function About() {
               <div className="about__bio-header">
                 <div className="about__avatar-wrap">
                   <img
-                    src="/images/ID_Pic.png?v=4"
+                    src="/images/ID_pic.png"
                     alt="John Rex M. Jalotjot"
                     className="about__avatar"
                   />

@@ -64,6 +64,11 @@ export const generateCV = () => {
       place: 'Municipality of Boac, LGU | Jan 2026 – Apr 2026',
       desc: 'Lead developer for the Inventory and Personnel (Plantilla) Management systems. Utilized Laravel and React to automate manual government workflows, resulting in high efficiency.'
     },
+    {
+      role: 'Mobile App Specialist (OJT)',
+      place: 'Municipality of Boac, LGU | Jan 2026 – Apr 2026',
+      desc: 'Engineered an Expense Tracking mobile app to digitize budget and expenditure recording, enhancing financial tracking efficiency for LGU operations.'
+    },
 
     {
       role: 'Database & Technical Support (OJT)',

@@ -93,7 +93,7 @@ export default function Hero() {
           <div className="hero__photo-ring" />
           <div className="hero__photo-container">
             <img
-              src="/images/ID_Pic.png?v=4"
+              src="/images/ID_pic.png"
               alt="Developer profile photo"
               className="hero__photo"
               loading="eager"

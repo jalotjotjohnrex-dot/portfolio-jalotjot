@@ -72,6 +72,7 @@ export const generateResume = () => {
 
   const expBullets = [
     'Developed and deployed the Inventory Management and Personnel (Plantilla) portals using Laravel and React, automating previously manual office workflows.',
+    'Engineered an Expense Tracking mobile application to digitize budget and expenditure recording for municipal operations.',
     'Designed a Printer Driver Portal to streamline driver distribution across LGU departments, improving technical support efficiency.',
     'Optimized complex MySQL database structures for local government databases, ensuring high performance and data integrity.',
     'Assisted in configuring and deploying CCTV systems across municipal offices, managing IP assignments, fiber optic networking, and system troubleshooting.'
