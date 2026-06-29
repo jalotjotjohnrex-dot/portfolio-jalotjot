@@ -19,7 +19,7 @@ export const generateResume = () => {
   y += 6
   doc.setFont(fontBody, 'normal')
   doc.setFontSize(fontSizeBody)
-  doc.text('johnrexjalotjot@gmail.com | 09703322984 | Marinduque, Philippines', 105, y, { align: 'center' })
+  doc.text('johnrexjalotjot@gmail.com | 09703322984 | Sampaloc, Manila, Philippines', 105, y, { align: 'center' })
   y += 5
   doc.text('Portfolio: portfolio-jalotjot-gu1c.vercel.app | GitHub: jalotjotjohnrex-dot | LinkedIn: john-rex-jalotjot-a52275404', 105, y, { align: 'center' })
   

@@ -27,7 +27,7 @@ export const generateCV = () => {
   doc.setFontSize(9)
   doc.text('Email: johnrexjalotjot@gmail.com', 15, 36)
   doc.text('Phone: 09703322984', 80, 36)
-  doc.text('Location: Marinduque, Philippines', 135, 36)
+  doc.text('Location: Sampaloc, Manila', 135, 36)
   doc.text('Links: GitHub: jalotjotjohnrex-dot | LinkedIn: john-rex-jalotjot-a52275404 | Portfolio: portfolio-jalotjot-gu1c.vercel.app', 15, 43)
 
   let y = 65
