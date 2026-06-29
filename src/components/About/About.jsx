@@ -110,7 +110,7 @@ export default function About() {
               <div className="about__bio-header">
                 <div className="about__avatar-wrap">
                   <img
-                    src="/images/ID_pic.png"
+                    src="/images/ID_Pic.png?v=5"
                     alt="John Rex M. Jalotjot"
                     className="about__avatar"
                   />
