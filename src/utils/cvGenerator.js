@@ -19,7 +19,7 @@ export const generateCV = () => {
 
   doc.setFont('helvetica', 'normal')
   doc.setFontSize(8.8)
-  doc.text('GRADUATE COMPUTER ENGINEER | JUNIOR FULL-STACK DEVELOPER', 15, 27)
+  doc.text('GRADUATE COMPUTER ENGINEER', 15, 27)
 
   doc.setFontSize(8)
   doc.text('Email: johnrexjalotjot@gmail.com', 15, 34)
@@ -36,11 +36,11 @@ export const generateCV = () => {
   doc.setDrawColor(100, 116, 139)
   doc.setLineWidth(0.35)
   doc.line(15, y + 3, 195, y + 3)
-  y += 10
+  y += 8
 
   doc.setFont('helvetica', 'normal')
   doc.setFontSize(9.5)
-  const summary = 'Junior Full-Stack Developer and Computer Engineering graduate with hands-on experience in building, deploying, and optimizing full-stack applications and IoT systems for public offices. Skilled in React, Laravel, PHP, Python, and MySQL, with strong experience in workflow automation, database optimization, and user-centered software design.'
+  const summary = 'Computer Engineering graduate with hands-on experience in building, deploying, and optimizing applications and IoT systems for public offices. Skilled in React, Laravel, PHP, Python, and MySQL, with strong experience in workflow automation, database optimization, and user-centered software design.'
   const splitSummary = doc.splitTextToSize(summary, 180)
   doc.text(splitSummary, 15, y)
   y += splitSummary.length * 5 + 7
@@ -49,7 +49,7 @@ export const generateCV = () => {
   doc.setFontSize(12)
   doc.text('PROFESSIONAL EXPERIENCE', 15, y)
   doc.line(15, y + 3, 195, y + 3)
-  y += 10
+  y += 8
 
   const experiences = [
     {
@@ -99,7 +99,7 @@ export const generateCV = () => {
   doc.setFontSize(12)
   doc.text('EDUCATION', 15, y)
   doc.line(15, y + 3, 195, y + 3)
-  y += 10
+  y += 8
 
   const eduRows = [
     'Bachelor of Science in Computer Engineering | Marinduque State University | 2022 – 2026',
@@ -115,11 +115,13 @@ export const generateCV = () => {
     y += 6
   })
 
+  y += 5
+
   doc.setFont('helvetica', 'bold')
   doc.setFontSize(12)
   doc.text('SKILLS & TRAITS', 15, y)
   doc.line(15, y + 3, 195, y + 3)
-  y += 10
+  y += 8
 
   const skillRows = [
     ['Frontend:', 'React.js, Vue.js, Next.js, Tailwind CSS, JavaScript (ES6+)'],
