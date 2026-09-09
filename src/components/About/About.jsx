@@ -7,25 +7,25 @@ import { jsPDF } from 'jspdf'
 const timeline = [
   {
     year:  '2026',
-    title: 'Junior Full-Stack Developer (OJT)',
+    title: 'Intern (OJT)',
     place: 'Municipality of Boac, LGU',
-    desc:  'Lead developer for the Inventory and Personnel (Plantilla) Management systems, modernizing government workflows with Laravel and React.',
+    desc:  'Developed the Inventory and Personnel (Plantilla) Management systems, modernizing government workflows with Laravel and React.',
   },
   {
     year:  '2026',
-    title: 'Mobile App Specialist (OJT)',
+    title: 'Intern (OJT)',
     place: 'Municipality of Boac, LGU',
     desc:  'Engineered an Expense Tracking mobile app to digitize budget and expenditure recording, enhancing financial tracking efficiency for the ICTS Office.',
   },
   {
     year:  '2026',
-    title: 'Database & Technical Support (OJT)',
+    title: 'Intern (OJT)',
     place: 'Municipality of Boac, LGU',
     desc:  'Engineered internal tools like the Printer Driver Portal and optimized local PHP/MySQL databases for municipal office efficiency.',
   },
   {
     year:  '2026',
-    title: 'IT Support & Network Technician (OJT)',
+    title: 'Intern (OJT)',
     place: 'Municipality of Boac, LGU',
     desc:  'Assisted in the configuration and deployment of CCTV systems, including fiber optic lining and IP management.',
   },

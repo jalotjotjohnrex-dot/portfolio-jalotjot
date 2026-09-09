@@ -53,22 +53,22 @@ export const generateCV = () => {
 
   const experiences = [
     {
-      role: 'System Developer Intern',
+      role: 'Intern (OJT)',
       place: 'Municipality of Boac, LGU | Jan 2026 – Apr 2026',
-      desc: 'Developed and deployed the Inventory Management and Personnel (Plantilla) portals using Laravel and React, automating previously manual office workflows.'
+      desc: 'Developed and deployed the Inventory Management and Personnel (Plantilla) portals using Laravel and React, automating previously manual office workflows as a solo project.'
     },
     {
-      role: 'Mobile App Specialist',
+      role: 'Intern (OJT)',
       place: 'Municipality of Boac, LGU | Jan 2026 – Apr 2026',
       desc: 'Engineered an Expense Tracking mobile app to digitize budget and expenditure recording for the ICTS Office.'
     },
     {
-      role: 'Database & Technical Support',
+      role: 'Intern (OJT)',
       place: 'Municipality of Boac, LGU | Jan 2026 – Apr 2026',
       desc: 'Optimized local government databases and developed a Printer Driver Portal to streamline technical operations across departments.'
     },
     {
-      role: 'IT Support & Network Technician',
+      role: 'Intern (OJT)',
       place: 'Municipality of Boac, LGU | Jan 2026 – Apr 2026',
       desc: 'Assisted in configuring and deploying CCTV systems, including fiber optic networking, IP assignment, and technical troubleshooting.'
     },
