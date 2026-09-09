@@ -4,7 +4,7 @@ export const projects = [
     id: 1,
     title: 'OptimaTrack — Inventory System',
     category: 'Web System',
-    tags: ['Laravel', 'PHP', 'MySQL', 'React'],
+    tags: ['React.js', 'MySQL', 'Laravel'],
     description:
       'A full-scale inventory management system built for the Municipal Government of Boac. Features real-time tracking of items across all departments, admin dashboard, transaction history, defective item monitoring, and multi-office account management.',
     screens: [
@@ -23,7 +23,7 @@ export const projects = [
     id: 2,
     title: 'Plantilla of Personnel 2026',
     category: 'Web System',
-    tags: ['PHP', 'MySQL', 'Laravel', 'FullCalendar'],
+    tags: ['Python', 'HTML', 'CSS', 'MySQL'],
     description:
       "A government personnel management system for the Municipality of Boac's HR department. Manages employee records, employment types (Permanent, Elective, Co-Term), job orders, and notifications with a live Local Government Calendar.",
     screens: [
@@ -54,7 +54,7 @@ export const projects = [
     id: 4,
     title: 'ExpenseTracker Mobile App',
     category: 'Mobile App',
-    tags: ['React Native', 'Firebase', 'Expo'],
+    tags: ['Firebase', 'React.js', 'Laravel'],
     description:
       'A cross-platform mobile expense tracking application built with React Native and Firebase Firestore. Features spending overview, category-based pie charts, recent transaction history, and real-time cloud sync across devices.',
     screens: [
