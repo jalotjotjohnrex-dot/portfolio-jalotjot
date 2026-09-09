@@ -40,7 +40,7 @@ export const projects = [
     id: 3,
     title: 'Municipality Epson Driver Portal',
     category: 'Web Tool',
-    tags: ['HTML', 'CSS', 'JavaScript', 'PHP'],
+    tags: ['PHP', 'HTML'],
     description:
       'An internal LAN-hosted web portal providing Epson printer driver downloads for all municipal offices. Organizes drivers by series and supports multiple Windows versions (Win 7 / 10 / 11) with 32-bit and 64-bit installers.',
     screens: [
